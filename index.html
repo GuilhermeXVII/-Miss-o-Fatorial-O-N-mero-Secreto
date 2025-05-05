@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Testando a sua sorte</title>
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+	<body>
+		<div class = "space">
+			<header><h1>Advinhe o número secreto</h1></header>
+			<h2>Entre com um número de 0 a 5!</h2>
+			<input/>
+			<button>Enviar</button>
+			<script>
+				function pularLinha(){
+					document.write("<br><hr><br>");
+				}
+				
+				function texto(frase){
+					document.write(frase);
+					pularLinha();
+					
+				}
+				
+				var entradaUsuario = document.querySelector("input");
+				entradaUsuario.focus();
+				
+				var numeroAleatorio = Math.round(Math.random() * 120);
+				console.log(numeroAleatorio);
+				
+				function verificarRespostaUsuario(){
+					if(entradaUsuario.value == numeroAleatorio){
+						texto("Muito bem, você acertou o número. Esse número era: " + numeroAleatorio);
+					}else{
+						texto("Lamento tente novamente, pois o número secreto era: " + numeroAleatorio);
+					}
+					
+					entradaUsuario.value = "";
+					entradaUsuario.focus();
+					
+				}
+				
+				var botaoUsuario = document.querySelector("button");
+				botaoUsuario.onclick = verificarRespostaUsuario;
+			
+		
+		</script>
+		</div>
+	</body>
+</html>

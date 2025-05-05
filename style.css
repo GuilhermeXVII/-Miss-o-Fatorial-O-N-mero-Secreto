@@ -1,0 +1,23 @@
+body{
+	background-color: gray;
+	text-align: center;
+	font-family: "Snell Roundhand", cursive;
+	padding: 300px;
+	background-image: url('https://th.bing.com/th/id/OIP.9fUKTFepXdvXHOAw1KvWlwHaHZ?w=186&h=185&c=7&r=0&o=5&cb=iwc1&pid=1.7');
+
+}
+.space{
+	border-radius: 900px;
+	background-color:  #ffffff;
+	padding: 50px;
+}
+
+input, button{
+	border:solid;
+	    border-radius: 5px;
+	
+}
+
+header, h1{
+	color: #213484;
+}

@@ -1,0 +1,1 @@
+📝 Descrição:Um número entre 0 e 120 está escondido no universo dos fatoriais... Você tem o que é preciso para descobri-lo? Use sua intuição, desafie a sorte e prove que domina o caos matemático! Acerte o número secreto antes que ele se esconda novamente.
